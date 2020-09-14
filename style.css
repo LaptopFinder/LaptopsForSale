@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    height: 2000px;
+}
+.container {
+    background-color: royalblue;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 99999999999;
+}
+.nav {
+    padding: .6em 1.25em;
+}
+
+.nav a {
+    position: relative;
+    right: 0%;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Kufam', cursive;
+}
+.judul {
+    background-image: url(laptop2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0%;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-size: 250%;
+    padding-top: 26%;
+    margin-left: 3%;
+    color: white;
+}
+p.atas {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    margin-left: 3%;
+    font-weight: lighter;
+    font-size: larger;
+
+}
+a.BuyNow {
+    text-decoration: none;
+    color: white;
+    padding: .5em 1.25em;
+    font-family: 'Share Tech', sans-serif;
+    background-color: royalblue;
+    margin-left: 3%;
+    font-size: larger;
+    transform: 250ms ease-in-out,
+    opacity 275ms;
+}
+a:hover, 
+a.focus {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+.isi h2 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+    position: relative;
+}
+img.laptop1 {
+    left: 1.5%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 285.266px;
+    display: block;
+    text-align: center;
+}
+a.satu {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: .5em 1.25em;
+    font-family: 'Share Tech', sans-serif;
+    background-color: royalblue;
+    margin-left: 185px;
+    font-size: x-large;
+    display: inline;
+}
+.containers {
+    margin: 0;
+    width: 100%;
+}
+img.laptop2 {
+    width: 510px;
+    display: block;
+}
+a.dua {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: .5em 1.25em;
+    font-family: 'Share Tech', sans-serif;
+    background-color: royalblue;
+    margin-left: 185px;
+    font-size: x-large;
+    display: inline;
+}
+
